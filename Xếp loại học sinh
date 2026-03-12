@@ -21,3 +21,4 @@ printf("Trung bình");
 else
 printf("Yếu");
 return 0;
+}
