@@ -1,0 +1,12 @@
+Cho bán kính R của hình tròn. Yêu cầu tính chu vi và diện tích của hình tròn đó. Lấy PI = 3.14
+#include<stdio.h>
+#include<math.h>
+#include<stdlib.h>
+int main(){
+double r;
+scanf("%lf",&r);
+double c=2*r*3.14;
+double s=r*r*3.14;
+printf("%.4lf %.4lf",c,s);
+return 0;
+}
