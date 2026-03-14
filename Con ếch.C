@@ -10,12 +10,12 @@ Gợi ý : Tìm số bước nhảy của Frog sang bên trái và bên phải, 
 int main(){
 int a,b,k;//a bên phải,b trái
 scanf("%d %d %d",&a,&b,&k);
-long long t,p;//trái với phải
-if(k%2==0){//k là bước
+long long t,p;//trái với phải, p : số lần cộng a,t : số lần trừ b
+if(k%2==0){//k là bước k chẵn,Ví dụ: k = 4,Các bước:1 → +a,2 → -b,3 → +a,4 → -b,cộng a 2 lần,trừ b 2 lần
 t=p=k/2;//trái=phải=bước/2
 }
 else{
-t=k/2;//nhảy bên này 
+t=k/2;//Ví dụ k = 5,Các bước:1 → +a,2 → -b,3 → +a,4 → -b,5 → +a,cộng a 3 lần,trừ b 2 lần,t = k/2 = 2,p = t + 1 = 3
 p=t+1;
 }
 printf("%lld",1ll*p*a-1ll*t*b);
