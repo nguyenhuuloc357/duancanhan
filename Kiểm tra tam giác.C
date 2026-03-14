@@ -1,4 +1,5 @@
 Cho 3 cạnh a, b, c của một tam giác, nếu tam giác đã cho là tam giác đều thì in ra 1, tam giác cân thì in ra 2, tam giác vuông thì in ra 3, tam giác thường in ra 4, trường hợp tam giác nhập vào không hợp lệ thì in ra "INVALID"
+
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
